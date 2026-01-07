@@ -58,6 +58,65 @@ shellcraft/
 5. Dropper stages execution on target
 
 ---
+## Installation
+
+ShellCraft is designed to run on Linux systems and requires a minimal, reproducible toolchain.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/HackScaleTeam/ShellCraft.git
+cd ShellCraft
+```
+### 2. Install dependencies
+
+ShellCraft provides a bootstrap installer that installs all required build dependencies.
+```bash
+chmod +x install.sh
+sudo ./install.sh
+```
+
+### The installer will:
+
+ - Detect your Linux distribution
+
+ - Install Python 3
+
+ - Install MinGW-w64 (Windows cross-compiler)
+
+ - Install Metasploit Framework (optional, for msfvenom)
+
+### 3. Verify installation
+
+After installation, ensure the required tools are available:
+```bash 
+python3 --version
+msfvenom --version
+x86_64-w64-mingw32-g++ --version
+```
+
+### 4. Run ShellCraft
+```bash
+python3 shellcraft.py --help
+```
+
+### Notes
+
+Metasploit Framework is optional and only required when using the --msf shellcode generation mode.
+
+All builds are performed on Linux and produce native Windows binaries.
+
+Generated artifacts must reside in the same directory at runtime.
+
+### Supported Platforms
+
+ Linux (Debian / Ubuntu / Kali)
+
+ Linux (Arch-based)
+
+ Linux (Fedora / RHEL-based)
+
+**Windows and macOS are not supported.**
+
 
 ## Shellcode Sources
 
@@ -76,10 +135,6 @@ Shellcode is treated as opaque input.
 ```
 No encoding, encryption, or mutation is applied by default.
 
-## Build Requirements
-
- - Linux
- - Python ≥ 3.8
 
 ### Toolchain
 Metasploit Framework (optional)
