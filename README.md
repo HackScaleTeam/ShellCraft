@@ -117,7 +117,7 @@ Windows execution-chain prototyping
 
 Template-based payload engineering
 
-### ❤️Supporters❤️
+### Supporters
 [![Stargazers repo roster for @HackScaleTeam/ShellCraft](http://reporoster.com/stars/dark/HackScaleTeam/ShellCraft)](https://github.com/HackScaleTeam/ShellCraft/stargazers)
 
 [![Forkers repo roster for @HackScaleTeam/ShellCraft](http://reporoster.com/forks/dark/HackScaleTeam/HackScaleTeam)](https://github.com/HackScaleTeam/ShellCraft/network/members)
