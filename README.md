@@ -142,8 +142,9 @@ shellcraft --msf <LHOST> <LPORT> -o payload.exe
 ```bash
 
 shellcraft -s shellcode.bin -o payload.exe
-Shellcode is treated as opaque input.
 ```
+Shellcode is treated as opaque input.
+
 No encoding, encryption, or mutation is applied by default.
 
 
