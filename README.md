@@ -17,14 +17,6 @@ It focuses on shellcode-driven execution, compiling native Windows binaries usin
 > ## DISCLAIMER & RESPONSIBLE USE
 >
 > This repository is provided strictly for **educational, academic, and defensive security research purposes**.
->
-> This project **does NOT provide ready-to-use malware**, and it is **NOT intended for unauthorized access, exploitation, or deployment on real systems**.
->
-> Any execution, testing, or experimentation **must be performed only in isolated lab environments** on systems you own or are explicitly authorized to test.
->
-> The author does **not encourage, support, or condone malicious activity**, and assumes **no responsibility** for misuse, damage, or legal consequences arising from improper use.
->
-> By accessing or using this repository, you acknowledge full responsibility for complying with all applicable laws, regulations, and ethical guidelines.
 ---
 
 ## Overview
